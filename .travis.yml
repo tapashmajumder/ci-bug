@@ -6,3 +6,5 @@ before_install:
 
 script:
   - xcodebuild test -project ci-bug.xcodeproj -scheme ci-bug -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11' -enableCodeCoverage YES CODE_SIGNING_REQUIRED=NO GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES | xcpretty -f `xcpretty-travis-formatter`
+
+# force a build
