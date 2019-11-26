@@ -20,7 +20,7 @@ class WebViewController: UIViewController {
     override func loadView() {
         super.loadView()
         
-        let html = "<html><body style='text-align: center; font-size: 30px;'>Hello, World!<body></html>"
+        let html = "<html><body style='text-align: center; font-size: 30px;'>Hello, World!<body></html><meta name='viewport' content='initial-scale=1.0' />"
         
         view.backgroundColor = UIColor.clear
         let webView = WKWebView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height))
