@@ -17,20 +17,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="s0r-nj-gbq">
-                                <rect key="frame" x="109.5" y="423" width="195" height="60"/>
+                                <rect key="frame" x="109.5" y="408" width="195" height="90"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90e-fr-e1G">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqv-NS-owp">
                                         <rect key="frame" x="0.0" y="0.0" width="195" height="30"/>
+                                        <state key="normal" title="Show Regular Message"/>
+                                        <connections>
+                                            <segue destination="0wI-vW-f1l" kind="presentation" id="1hm-bw-YMV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90e-fr-e1G">
+                                        <rect key="frame" x="0.0" y="30" width="195" height="30"/>
                                         <state key="normal" title="Show WKWebView Message"/>
                                         <connections>
                                             <segue destination="lHf-e4-m4X" kind="presentation" id="wrU-bF-n30"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqv-NS-owp">
-                                        <rect key="frame" x="0.0" y="30" width="195" height="30"/>
-                                        <state key="normal" title="Show Regular Message"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbh-eR-XfJ">
+                                        <rect key="frame" x="0.0" y="60" width="195" height="30"/>
+                                        <state key="normal" title="Show UIWebView Message"/>
                                         <connections>
-                                            <segue destination="0wI-vW-f1l" kind="presentation" id="1hm-bw-YMV"/>
+                                            <segue destination="2aJ-F3-LFE" kind="presentation" id="ngN-Xu-kbA"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -94,6 +101,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VRP-20-Jvm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="461" y="488"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="x3c-it-hJl">
+            <objects>
+                <viewController id="2aJ-F3-LFE" customClass="UIWebViewController" customModule="ci_bug" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yLi-55-tZ2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="RHK-r3-RuU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RE3-cA-327" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1323" y="213"/>
         </scene>
     </scenes>
 </document>

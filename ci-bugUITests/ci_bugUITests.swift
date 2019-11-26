@@ -22,14 +22,6 @@ class ci_bugUITests: XCTestCase {
     override func tearDown() {
     }
 
-    func testShowWKWebviewMessage() {
-        // UI tests must launch the application that they test.
-        app.buttons["Show WKWebView Message"].tap()
-        
-        XCTAssertTrue(app.staticTexts["Hello, World!"].waitForExistence(timeout: 15))
-        
-    }
-
     func testShowRegularMessage() {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
@@ -40,4 +32,21 @@ class ci_bugUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["Hello, World!"].waitForExistence(timeout: 15))
         
     }
+
+    func testShowWKWebviewMessage() {
+        // UI tests must launch the application that they test.
+        app.buttons["Show WKWebView Message"].tap()
+        
+        XCTAssertTrue(app.staticTexts["Hello, World!"].waitForExistence(timeout: 15))
+        
+    }
+
+    func testShowUIWebviewMessage() {
+        // UI tests must launch the application that they test.
+        app.buttons["Show UIWebView Message"].tap()
+        
+        XCTAssertTrue(app.staticTexts["Hello, World!"].waitForExistence(timeout: 15))
+        
+    }
+
 }

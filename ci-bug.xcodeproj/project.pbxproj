@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC42622E238D902400164121 /* UIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42622D238D902400164121 /* UIWebViewController.swift */; };
 		AC6D853C23867BC20075D927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D853B23867BC20075D927 /* AppDelegate.swift */; };
 		AC6D854223867BC40075D927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6D854123867BC40075D927 /* Assets.xcassets */; };
 		AC6D854823867BC40075D927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6D854623867BC40075D927 /* LaunchScreen.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC42622D238D902400164121 /* UIWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWebViewController.swift; sourceTree = "<group>"; };
 		AC6D853823867BC20075D927 /* ci-bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ci-bug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6D853B23867BC20075D927 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC6D854123867BC40075D927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				AC6D853B23867BC20075D927 /* AppDelegate.swift */,
 				AC6D855F238696460075D927 /* MainViewController.swift */,
 				AC6D8561238699610075D927 /* WebViewController.swift */,
+				AC42622D238D902400164121 /* UIWebViewController.swift */,
 			);
 			path = "ci-bug";
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				AC6D853C23867BC20075D927 /* AppDelegate.swift in Sources */,
 				AC6D8562238699610075D927 /* WebViewController.swift in Sources */,
 				AC6D8560238696460075D927 /* MainViewController.swift in Sources */,
+				AC42622E238D902400164121 /* UIWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
