@@ -14,7 +14,7 @@
 		AC6D855623867EE40075D927 /* ci_bugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D855523867EE40075D927 /* ci_bugUITests.swift */; };
 		AC6D855E238695570075D927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6D855D238695570075D927 /* Main.storyboard */; };
 		AC6D8560238696460075D927 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D855F238696460075D927 /* MainViewController.swift */; };
-		AC6D8562238699610075D927 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D8561238699610075D927 /* WebViewController.swift */; };
+		AC6D8562238699610075D927 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D8561238699610075D927 /* WKWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		AC6D855723867EE40075D927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC6D855D238695570075D927 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AC6D855F238696460075D927 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		AC6D8561238699610075D927 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		AC6D8561238699610075D927 /* WKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 				AC6D855D238695570075D927 /* Main.storyboard */,
 				AC6D853B23867BC20075D927 /* AppDelegate.swift */,
 				AC6D855F238696460075D927 /* MainViewController.swift */,
-				AC6D8561238699610075D927 /* WebViewController.swift */,
+				AC6D8561238699610075D927 /* WKWebViewController.swift */,
 				AC42622D238D902400164121 /* UIWebViewController.swift */,
 			);
 			path = "ci-bug";
@@ -204,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC6D853C23867BC20075D927 /* AppDelegate.swift in Sources */,
-				AC6D8562238699610075D927 /* WebViewController.swift in Sources */,
+				AC6D8562238699610075D927 /* WKWebViewController.swift in Sources */,
 				AC6D8560238696460075D927 /* MainViewController.swift in Sources */,
 				AC42622E238D902400164121 /* UIWebViewController.swift in Sources */,
 			);
